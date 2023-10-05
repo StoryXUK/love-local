@@ -1,1078 +1,346 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <!-- Basic -->
-    <meta charset="UTF-8">
-    <title>UniDark</title>
-    <meta name="keywords" content="HTML5 News Magazine Template"/>
-    <meta name="description" content="Unidark - Ultimate News and Magazine Template">
-    <meta name="author" content="designuptodate.com">
-    <!-- Favicon -->
-    <link rel="icon" href="img/favicon.png" sizes="32x32"/>
-    <link rel="icon" href="img/favicon.png" sizes="192x192"/>
-    <link rel="apple-touch-icon-precomposed" href="img/favicon.png"/>
-    <meta name="msapplication-TileImage" content="img/favicon.png"/>
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!-- Theme CSS -->
-    <link href="css/import-style.css" rel="stylesheet">
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Xolio - Creative Agency HTML5 Template</title>
+        <meta name="description" content="Xolio - Creative Agency Template">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-</head>
-<body class="home home-1 has-block-heading-line">
+		<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-<!-- .site-wrapper -->
-<div class="site-wrapper" >
-    <!-- Site header -->
-    <header class="site-header">
-        <!-- Mobile header -->
-        <div id="atbs-mobile-header" class="mobile-header visible-xs visible-sm">
-            <div class="mobile-header__inner mobile-header__inner--flex">
-                <div class="header-branding header-branding--mobile mobile-header__section text-left">
-                    <div class="header-logo header-logo--mobile flexbox__item text-left">
-                        <a href="index.html">
-                            <img src="img/logo.png" alt="logo">
-                        </a>
-                    </div>
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+
+        <!--Preloader-->
+        <div id="preloader">
+            <div id="loader" class="loader">
+                <div class="loader-container">
+                    <div class="loader-icon"><img src="assets/img/preloader.png" alt="Preloader"></div>
                 </div>
-                <div class="mobile-header__section text-right inverse-text">
-                    <button type="submit" class="mobile-header-btn js-search-dropdown-toggle">
-                        <i class="mdicon mdicon-search hidden-xs"></i>
-                        <i class="mdicon mdicon-search visible-xs-inline-block"></i>
-                    </button>
-                    <a href="#atbs-offcanvas-primary" class="offcanvas-menu-toggle mobile-header-btn js-atbs-offcanvas-toggle">
-                        <i class="mdicon mdicon-menu hidden-xs"></i>
-                        <i class="mdicon mdicon-menu visible-xs-inline-block"></i>
-                    </a>
-                </div>
-            </div>
-        </div><!-- Mobile header -->
-
-        <div class="header-main hidden-xs hidden-sm">
-            <a href="#atbs-offcanvas-primary" class="offcanvas-menu-toggle navigation-bar-btn js-atbs-offcanvas-toggle btn-menu-bar-icon flex-box align-item-center">
-                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="20.75" viewBox="0 0 27 20.75">
-                    <path id="Path_1521" data-name="Path 1521" d="M4,6H29M4,15.375H29M4,24.75H14.938" transform="translate(-3 -5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                </svg>
-            </a>
-
-            <div class="header-social header-social-vertical">
-                <ul class="social-list social-list--sm list-horizontal social-list--inverse">
-                    <li><a href="#" target="_blank"><i class="mdicon mdicon-facebook"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="mdicon mdicon-twitter"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="mdicon mdicon-linkedin"></i></a></li>
-                </ul>
             </div>
         </div>
-        <!-- Navigation bar -->
-        <nav class="navigation-bar hidden-xs hidden-sm js-sticky-header-holder">
-            <div class="navigation-bar__inner flexbox-wrap flexbox-center-y">
-                <div class="navigation-bar__section flex-box align-item-center">
-                    <div class="header-logo">
-                        <a href="index.html">
-                            <img src="./img/logo.png" alt="File not found" width="130">
+        <!--Preloader-end -->
 
-                        </a>
-                    </div>
-                </div>
-                <div class="navigation-bar__section navigation-menu-section js-priority-nav">
-                    <ul id="menu-main-menu" class="navigation navigation--main navigation--inline">
-                        <li class="menu-item-has-children">
-                            <a href="#">Home Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 1</a></li>
-                                <li><a href="home-2.html">Home 2</a></li>
-                                <li><a href="home-3.html">Home 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="./single-1.html">Single</a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Archive</a>
-                            <ul class="sub-menu">
-                                <li><a href="category.html">Category</a></li>
-                                <li><a href="tags.html">Tags</a></li>
-                                <li><a href="author.html">Author</a></li>
-                            </ul>
-                        </li>
+        <!-- Custom-cursor -->
+        <div class="mouseCursor cursor-outer"></div>
+        <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+        <!-- Custom-cursor-end -->
 
-                        <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="search.html">Search</a></li>
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navigation-bar__section">
-                    <button type="submit" class="navigation-bar-search navigation-bar-btn js-search-dropdown-toggle"><i class="mdicon mdicon-search"></i> Search</button>
-                </div>
-            </div><!-- .navigation-bar__inner -->
-            <div id="header-search-dropdown" class="header-search-dropdown ajax-search is-in-navbar js-ajax-search">
-                <div class="container container--narrow">
-                    <form class="search-form search-form--horizontal" method="get" action="#">
-                        <div class="search-form__input-wrap">
-                            <input type="text" name="s" class="search-form__input" placeholder="Search" value="">
-                        </div>
-                        <div class="search-form__submit-wrap">
-                            <button type="submit" class="search-form__submit btn btn-primary">Search</button>
-                        </div>
-                    </form>
+		<!-- Scroll-top -->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <i class="fas fa-angle-up"></i>
+        </button>
+        <!-- Scroll-top-end-->
 
-                    <div class="search-results">
-                        <div class="typing-loader"></div>
-                        <div class="search-results__inner"></div>
-                    </div>
-                </div>
-            </div><!-- .header-search-dropdown -->
-        </nav><!-- Navigation-bar -->
-    </header><!-- Site header -->
-    <div class="site-content">
-        <div class="flex-box">
-            <div class="atbs-block atbs-block--fullwidth atbs-section-module">
-                <div class="atbs-block atbs-block--fullwidth atbs-featured-module-1">
-                    <div class="atbs-block__inner">
-                        <div class="section-main">
-                            <article class="post post--overlay post--overlay-middle post--overlay-large post--overlay-height-680 post--overlay-padding-lg">
-                                <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                    <a href="./single-1.html">
-                                        <img src="http://via.placeholder.com/1920x1080" alt="file not found">
-                                    </a>
-                                </div>
-                                <div class="post__text inverse-text">
-                                    <div class="post__text-wrap">
-                                        <div class="post__text-inner max-width-640">
-                                            <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
-                                            <h3 class="post__title f-40 f-w-700 m-b-15 max-width-640">
-                                                <a href="./single-1.html">I Was Trying To Daydream But My Mind Kept Wander.</a>
-                                            </h3>
-                                            <div class="post__meta">
-                                                <div class="post-author post-author_style-7">
-                                                    <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                        <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                    </a>
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+        <!-- header-area -->
+        <header>
+            <div id="sticky-header" class="menu-area transparent-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
                                     </div>
-                                </div>
-                                <a href="./single-1.html" class="link-overlay"></a>
-                            </article>
-                        </div>
-                        <div class="section-sub">
-                            <div class="owl-carousel js-atbs-carousel-4i30m atbs-carousel dots-circle dots-white" data-carousel-loop="true">
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="./single-1.html">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                                <div class="slide-content">
-                                    <article class="post post--overlay post--overlay-cylinder post--overlay-cylinder-small post--overlay-bottom post--overlay-height-300">
-                                        <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                            <a href="#">
-                                                <img src="http://via.placeholder.com/400x500" alt="file not found">
-                                            </a>
-                                        </div>
-                                        <div class="post__text inverse-text">
-                                            <div class="post__text-wrap">
-                                                <div class="post__text-inner">
-
-                                                    <h3 class="post__title f-18 f-w-600 m-b-10">
-                                                        <a href="#">Look Deep Into Nature, And  You Will Understand</a>
-                                                    </h3>
-                                                    <div class="post__meta">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <a href="./single-1.html" class="link-overlay"></a>
-                                        <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="atbs-block atbs-block--fullwidth atbs-featured-module-3">
-                    <div class="block-heading block-heading_style-1 block-heading-no-line">
-                        <h4 class="block-heading__title">
-                            Featured News
-                        </h4>
-                    </div>
-                    <div class="atbs-block__inner">
-                        <div class="posts-list flex-box flex-space-30 flex-box-4i posts-list-tablet-2i">
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
-                                    <div class="post__thumb object-fit">
-                                        <a href="./single-1.html">
-                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="./category.html" class="post__cat post__cat-primary">GADGETS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
+                                    <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                        <ul class="navigation">
+                                            <li class="active menu-item-has-children"><a href="#">Home</a>
+                                                <ul class="sub-menu">
+                                                    <li class="active"><a href="index.html">Creative Agency</a></li>
+                                                    <li><a href="index-2.html">Personal Portfolio</a></li>
+                                                    <li><a href="index-3.html">Digital Agency</a></li>
                                                 </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
-                                    <div class="post__thumb object-fit">
-                                        <a href="./single-1.html">
-                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="./category.html" class="post__cat post__cat-primary">GADGETS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
+                                            </li>
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li class="menu-item-has-children"><a href="#">pages</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="about-me.html">About Me</a></li>
+                                                    <li><a href="team.html">Team Page</a></li>
+                                                    <li><a href="team-details.html">Team Details</a></li>
+                                                    <li><a href="project-details.html">Portfolio Details</a></li>
+                                                    <li><a href="services-details.html">Services Details</a></li>
+                                                    <li><a href="contact.html">Contact Us</a></li>
                                                 </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
-                                    <div class="post__thumb object-fit">
-                                        <a href="./single-1.html">
-                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                        </a>
-                                    </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="./category.html" class="post__cat post__cat-primary">GADGETS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="#">News</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="blog.html">Our Blog</a></li>
+                                                    <li><a href="blog-details.html">Blog Details</a></li>
                                                 </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                            </div>
-                                        </div>
+                                            </li>
+                                        </ul>
                                     </div>
-                                </article>
-                            </div>
-                            <div class="list-item">
-                                <article class="post post--vertical post--vertical-style-card-thumb-aside atbs-post-hover-theme-style post--hover-theme">
-                                    <div class="post__thumb object-fit">
-                                        <a href="./single-1.html">
-                                            <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                        </a>
+                                    <div class="header-action">
+                                        <ul class="list-wrap">
+                                            <li class="header-btn"><a href="#!" class="btn">Contact <span></span></a></li>
+                                        </ul>
                                     </div>
-                                    <div class="post__text flex-box flex-direction-column inverse-text">
-                                        <div class="post__text-group">
-                                            <a href="./category.html" class="post__cat post__cat-primary">GADGETS</a>
-                                            <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-3">
-                                                <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                            </h3>
-                                            <div class="post-tags">
-                                                <ul class="list-unstyled list-horizontal">
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                    <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="post__text-group flex-item-auto-bottom">
-                                            <div class="post__meta time-style-1 flex-box justify-content-space align-item-center">
-                                                <div class="post-author post-author_style-6">
-                                                    <div class="post-author__text">
-                                                        <div class="author_name--wrap">
-                                                            <span>by</span>
-                                                            <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-box">
-                    <div class="atbs-main-col">
-                        <div class="atbs-block atbs-block--fullwidth atbs-posts-block-main-col-2" style="margin-bottom: 30px">
-                            <div class="block-heading block-heading_style-1 block-heading-no-line">
-                                <h4 class="block-heading__title">
-                                    editor's choise
-                                </h4>
-                            </div>
-                            <div class="atbs-block__inner flex-box">
-                                <div class="section-main">
-                                    <div class="owl-carousel js-atbs-carousel-1i atbs-carousel dots-circle nav-circle nav-horizontal nav-white">
-                                        <div class="slide-content">
-                                            <article class="post post--vertical post--vertical-card-overlap post--vertical-card-overlap-large">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html">
-                                                        <img src="http://via.placeholder.com/800x400" alt="File not found">
-                                                    </a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-26 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                        <div class="post-author post-author_style-7">
-                                                            <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                                <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                            </a>
-                                                            <div class="post-author__text">
-                                                                <div class="author_name--wrap">
-                                                                    <span>by</span>
-                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="slide-content">
-                                            <article class="post post--vertical post--vertical-card-overlap post--vertical-card-overlap-large">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html">
-                                                        <img src="http://via.placeholder.com/800x400" alt="File not found">
-                                                    </a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-26 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                        <div class="post-author post-author_style-7">
-                                                            <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                                <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                            </a>
-                                                            <div class="post-author__text">
-                                                                <div class="author_name--wrap">
-                                                                    <span>by</span>
-                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="slide-content">
-                                            <article class="post post--vertical post--vertical-card-overlap post--vertical-card-overlap-large">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html">
-                                                        <img src="http://via.placeholder.com/800x400" alt="File not found">
-                                                    </a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-26 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta border-avatar flex-box align-item-center justify-content-space">
-                                                        <div class="post-author post-author_style-7">
-                                                            <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                                <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                            </a>
-                                                            <div class="post-author__text">
-                                                                <div class="author_name--wrap">
-                                                                    <span>by</span>
-                                                                    <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="section-sub">
-                                    <div class="posts-list flex-box flex-box-1i">
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-middle post--horizontal-card-space flex-box post--hover-theme">
-                                                <div class="post__thumb object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x250" alt="File not found"></a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-18 f-w-500 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                                    </h3>
-                                                    <div class="post__meta flex-box time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-middle post--horizontal-card-space flex-box post--hover-theme">
-                                                <div class="post__thumb object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x250" alt="File not found"></a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-18 f-w-500 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                                    </h3>
-                                                    <div class="post__meta flex-box time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-middle post--horizontal-card-space flex-box post--hover-theme">
-                                                <div class="post__thumb object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x250" alt="File not found"></a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-18 f-w-500 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                                    </h3>
-                                                    <div class="post__meta flex-box time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-middle post--horizontal-card-space flex-box post--hover-theme">
-                                                <div class="post__thumb object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x250" alt="File not found"></a>
-                                                </div>
-                                                <div class="post__text inverse-text">
-                                                    <a href="./category.html" class="post__cat">GADGETS</a>
-                                                    <h3 class="post__title f-18 f-w-500 m-t-10 m-b-10 atbs-line-limit atbs-line-limit-2">
-                                                        <a href="./single-1.html">Life Is Too Important To Be Taken Seriously</a>
-                                                    </h3>
-                                                    <div class="post__meta flex-box time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="atbs-block atbs-block--fullwidth atbs-posts-listing--grid-4-has-sidebar">
-                            <div class="atbs-block__inner flex-box">
-                                <div class="posts-list flex-box flex-box-3i flex-space-30 posts-list-tablet-2i">
-                                    <div class="list-item">
-                                        <article class="post post--vertical post--vertical-card-no-background">
-                                            <div class="post__thumb object-fit b-r-8 post__thumb-radius">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                                </a>
-                                                <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                            </div>
-                                            <div class="post__text inverse-text author-avatar-right">
-
-                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                </h3>
-                                                <div class="post__meta border-avatar">
-                                                    <div class="post-author post-author_style-7">
-                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                        </a>
-                                                        <div class="post-author__text">
-                                                            <div class="author_name--wrap">
-                                                                <span>by</span>
-                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--vertical post--vertical-card-no-background">
-                                            <div class="post__thumb object-fit b-r-8 post__thumb-radius">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                                </a>
-                                                <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                            </div>
-                                            <div class="post__text inverse-text author-avatar-right">
-
-                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                </h3>
-                                                <div class="post__meta border-avatar">
-                                                    <div class="post-author post-author_style-7">
-                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                        </a>
-                                                        <div class="post-author__text">
-                                                            <div class="author_name--wrap">
-                                                                <span>by</span>
-                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--vertical post--vertical-card-no-background">
-                                            <div class="post__thumb object-fit b-r-8 post__thumb-radius">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/250x150" alt="File not found">
-                                                </a>
-                                                <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                            </div>
-                                            <div class="post__text inverse-text author-avatar-right">
-
-                                                <h3 class="post__title f-20 f-w-600 m-b-10 m-t-10 atbs-line-limit atbs-line-limit-2">
-                                                    <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                </h3>
-                                                <div class="post__meta border-avatar">
-                                                    <div class="post-author post-author_style-7">
-                                                        <a class="post-author__avatar" href="./author.html" title="Posts by Connor Randall" rel="author">
-                                                            <img alt="Connor Randall" src="http://via.placeholder.com/100x100">
-                                                        </a>
-                                                        <div class="post-author__text">
-                                                            <div class="author_name--wrap">
-                                                                <span>by</span>
-                                                                <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="atbs-block atbs-block--fullwidth atbs-posts-listing--grid-1-has-sidebar">
-                            <div class="block-heading block-heading_style-1 block-heading-no-line">
-                                <h4 class="block-heading__title">
-                                    Listing Posts
-                                </h4>
-                            </div>
-                            <div class="atbs-block__inner">
-                                <div class="posts-list flex-box flex-space-30 flex-box-3i posts-list-tablet-2i">
-                                    <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
-                                                </a>
-                                            </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
-                                                </a>
-                                            </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
-                                                </a>
-                                            </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
-                                                </a>
-                                            </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
-                                                </a>
-                                            </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                        </article>
-                                    </div>
-                                    <div class="list-item">
-                                        <article class="post post--overlay post--overlay-normal post--overlay-cylinder-small post--overlay-bottom post--overlay-height-420 b-r-5">
-                                            <div class="post__thumb post__thumb--overlay atbs-thumb-object-fit">
-                                                <a href="./single-1.html">
-                                                    <img src="http://via.placeholder.com/440x500" alt="file not found">
-                                                </a>
-                                            </div>
-                                            <div class="post__text inverse-text">
-                                                <div class="post__text-wrap">
-                                                    <div class="post__text-inner">
-                                                        <h3 class="post__title f-20 f-w-700 m-b-12">
-                                                            <a href="./single-1.html">Look Deep Into Nature, And  You Will Understand</a>
-                                                        </h3>
-                                                        <div class="post-tags m-b-25">
-                                                            <ul class="list-unstyled list-horizontal">
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#motobike</a></li>
-                                                                <li><a href="./tags.html" class="post-tag" rel="tag">#booking</a></li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="post__meta time-style-1 flex-box justify-content-space align-item-center post__meta--border-top">
-                                                            <div class="post-author post-author_style-6">
-                                                                <div class="post-author__text">
-                                                                    <div class="author_name--wrap">
-                                                                        <span>by</span>
-                                                                        <a class="post-author__name" title="Posts by Connor Randall" rel="author" href="./author.html"> Connor Randall</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <a href="./single-1.html" class="link-overlay"></a>
-                                            <a href="./category.html" class="post__cat post__cat--bg overlay-item--top-left">GADGETS</a>
-                                        </article>
-                                    </div>
-                                </div>
-                                <nav class="atbs-pagination text-center">
-                                    <a href="#" class="btn btn-default">Load More</a>
                                 </nav>
                             </div>
+
+                            <!-- Mobile Menu  -->
+                            <div class="mobile-menu">
+                                <nav class="menu-box">
+                                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                                    <div class="nav-logo">
+                                        <a href="index.html"><img src="assets/img/logo/logo.png" alt="Logo"></a>
+                                    </div>
+                                    <div class="menu-outer">
+                                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                                    </div>
+                                    <div class="social-links">
+                                        <ul class="clearfix list-wrap">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-backdrop"></div>
+                            <!-- End Mobile Menu -->
+
                         </div>
                     </div>
-                    <div class="atbs-sub-col js-sticky-sidebar">
-                        <div class="widget atbs-atbs-widget atbs-widget-posts-2">
-                            <div class="widget-wrap">
-                                <div class="widget__title">
-                                    <h4 class="widget__title-text">Popular</h4>
-                                </div>
-                                <div class="widget__inner">
-                                    <div class="posts-list flex-box flex-space-30 flex-box-1i posts-list-tablet-2i">
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-reverse post--horizontal-xxs post--horizontal-middle">
-                                                <div class="post__thumb atbs-thumb-object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
+                </div>
+
+                <!-- header-contact -->
+                <div class="header-contact-wrap">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="left-side-content">
+                                    <h3 class="title">Contact</h3>
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-5 col-md-6">
+                                            <div class="contact-info-list">
+                                                <ul class="list-wrap">
+                                                    <li>
+                                                        <div class="icon">
+                                                            <svg viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M1.5 6.5C1.5 4.89295 1.95538 3.86848 2.63534 3.2371C3.32535 2.59637 4.36497 2.25 5.75 2.25H15.75C17.135 2.25 18.1746 2.59637 18.8647 3.2371C19.5446 3.86848 20 4.89295 20 6.5V13.5C20 15.107 19.5446 16.1315 18.8647 16.7629C18.1746 17.4036 17.135 17.75 15.75 17.75H5.75C4.36497 17.75 3.32535 17.4036 2.63534 16.7629C1.95538 16.1315 1.5 15.107 1.5 13.5V6.5ZM5.75 0.75C4.13503 0.75 2.67465 1.15363 1.61466 2.1379C0.544615 3.13152 0 4.60705 0 6.5V13.5C0 15.393 0.544615 16.8685 1.61466 17.8621C2.67465 18.8464 4.13503 19.25 5.75 19.25H15.75C17.365 19.25 18.8254 18.8464 19.8853 17.8621C20.9554 16.8685 21.5 15.393 21.5 13.5V6.5C21.5 4.60705 20.9554 3.13152 19.8853 2.1379C18.8254 1.15363 17.365 0.75 15.75 0.75H5.75ZM16.2181 7.58602C16.5417 7.32751 16.5945 6.85558 16.336 6.53194C16.0775 6.20829 15.6056 6.15548 15.2819 6.41398L12.1529 8.91324L12.1525 8.91352C11.3961 9.51536 10.0946 9.51549 9.33799 8.91393L6.21898 6.41471C5.89574 6.1557 5.42373 6.20778 5.16471 6.53102C4.9057 6.85426 4.95778 7.32627 5.28102 7.58529L8.40101 10.0853L8.40286 10.0868C9.70626 11.1244 11.7837 11.1244 13.0871 10.0868L13.0881 10.086L16.2181 7.58602Z" />
+                                                            </svg>
+                                                        </div>
+                                                        <div class="content">
+                                                            <a href="mailto:company@gmail.com">company@gmail.com</a>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon">
+                                                            <svg viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M2.48199 7.65591C3.37522 3.73032 6.71708 1.74769 10.1338 1.75C13.5508 1.75231 16.8905 3.73971 17.7791 7.66556L17.7791 7.6656C18.8362 12.3354 15.943 16.3756 13.2111 18.999L13.2097 19.0004C11.4913 20.659 8.77127 20.661 7.04076 18.9997C4.31866 16.3762 1.42493 12.3261 2.48199 7.65591ZM10.1348 0.250002C14.1154 0.252693 18.1706 2.60029 19.2421 7.33441C20.4848 12.8239 17.0589 17.3834 14.251 20.08C11.9497 22.3008 8.31046 22.2989 6.00106 20.0809L6.00012 20.08C3.20236 17.3836 -0.22362 12.8139 1.01908 7.32441L1.01926 7.32364C2.09618 2.58953 6.1542 0.247312 10.1348 0.250002ZM7.76166 9.30994C7.76166 8.00103 8.82274 6.93994 10.1317 6.93994C11.4406 6.93994 12.5017 8.00103 12.5017 9.30994C12.5017 10.6189 11.4406 11.6799 10.1317 11.6799C8.82274 11.6799 7.76166 10.6189 7.76166 9.30994ZM10.1317 5.43994C7.99432 5.43994 6.26166 7.1726 6.26166 9.30994C6.26166 11.4473 7.99432 13.1799 10.1317 13.1799C12.269 13.1799 14.0017 11.4473 14.0017 9.30994C14.0017 7.1726 12.269 5.43994 10.1317 5.43994Z" />
+                                                            </svg>
+                                                        </div>
+                                                        <div class="content">
+                                                            <span>Ranelagh Place, Liverpool, L3 5UL, England</span>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="icon">
+                                                            <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                    d="M1.5 11C1.5 5.89421 5.64421 1.75 10.75 1.75C15.8558 1.75 20 5.89421 20 11C20 16.1058 15.8558 20.25 10.75 20.25C5.64421 20.25 1.5 16.1058 1.5 11ZM10.75 0.25C4.81579 0.25 0 5.06579 0 11C0 16.9342 4.81579 21.75 10.75 21.75C16.6842 21.75 21.5 16.9342 21.5 11C21.5 5.06579 16.6842 0.25 10.75 0.25ZM11.1289 6.50977C11.1289 6.09555 10.7931 5.75977 10.3789 5.75977C9.96469 5.75977 9.62891 6.09555 9.62891 6.50977V10.6098C9.62891 11.0862 9.79027 11.5637 10.0149 11.9576C10.2393 12.3511 10.5673 12.7322 10.9755 12.9744L10.9766 12.975L14.0746 14.8238C14.4303 15.0361 14.8907 14.9198 15.1029 14.5641C15.3152 14.2084 15.1989 13.748 14.8432 13.5357L11.7433 11.6857L11.7413 11.6845C11.6099 11.6067 11.4483 11.4431 11.3179 11.2145C11.1875 10.9859 11.1289 10.7633 11.1289 10.6098V6.50977Z" />
+                                                            </svg>
+                                                        </div>
+                                                        <div class="content">
+                                                            <span>7 Days a week <br> from 10-00 am to 6-00 pm</span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <div class="lats-chat">
+                                                    <a href="contact.html">Lat’s Chat</a>
                                                 </div>
-                                                <div class="post__text flex-box align-item-center">
-                                                    <span class="list-index">01</span>
-                                                    <h3 class="post__title f-16 f-w-500 flex-item-auto hover-color-primary">
-                                                        <a href="./single-1.html">The Happiest People Want The Lowest</a>
-                                                    </h3>
-                                                </div>
-                                            </article>
+                                            </div>
                                         </div>
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-reverse post--horizontal-xxs post--horizontal-middle">
-                                                <div class="post__thumb atbs-thumb-object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
+                                        <div class="col-xl-8 col-lg-7 col-md-6">
+                                            <div class="our-best-project">
+                                                <div class="content">
+                                                    <h4 class="title">One of Our <span>Best Ongoing</span> Projects</h4>
+                                                    <a href="project-details.html" class="btn">Details <span></span></a>
                                                 </div>
-                                                <div class="post__text flex-box align-item-center">
-                                                    <span class="list-index">02</span>
-                                                    <h3 class="post__title f-16 f-w-500 flex-item-auto hover-color-primary">
-                                                        <a href="./single-1.html">The Happiest People Want The Lowest</a>
-                                                    </h3>
+                                                <div class="thumb">
+                                                    <img src="assets/img/images/our_project_img.png" alt="">
                                                 </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-reverse post--horizontal-xxs post--horizontal-middle">
-                                                <div class="post__thumb atbs-thumb-object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
-                                                </div>
-                                                <div class="post__text flex-box align-item-center">
-                                                    <span class="list-index">03</span>
-                                                    <h3 class="post__title f-16 f-w-500 flex-item-auto hover-color-primary">
-                                                        <a href="./single-1.html">The Happiest People Want The Lowest</a>
-                                                    </h3>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--horizontal post--horizontal-reverse post--horizontal-xxs post--horizontal-middle">
-                                                <div class="post__thumb atbs-thumb-object-fit b-r-5 post__thumb-radius">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/180x180" alt="File not found"></a>
-                                                </div>
-                                                <div class="post__text flex-box align-item-center">
-                                                    <span class="list-index">04</span>
-                                                    <h3 class="post__title f-16 f-w-500 flex-item-auto hover-color-primary">
-                                                        <a href="./single-1.html">The Happiest People Want The Lowest</a>
-                                                    </h3>
-                                                </div>
-                                            </article>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="widget atbs-atbs-widget atbs-widget-posts-1">
-                            <div class="widget-wrap">
-                                <div class="widget__title">
-                                    <h4 class="widget__title-text">Trending News</h4>
+                            <div class="col-lg-4">
+                                <div class="customer-support-wrap">
+                                    <h4 class="title">Customer Support</h4>
+                                    <div class="customer-support-content">
+                                        <div class="content-top">
+                                            <img src="assets/img/images/support_img.png" alt="">
+                                            <h4 class="title">Need Help Choosing a Plan?</h4>
+                                        </div>
+                                        <p>We offer solutions for businesses of all sizes. For questions about our plans and products,,
+                                            contact our team of experts. <a href="contact.html">Get in touch</a></p>
+                                    </div>
+                                    <div class="content-bottom">
+                                        <a href="contact.html">Support</a>
+                                        <a href="contact.html">Documentation</a>
+                                    </div>
                                 </div>
-                                <div class="widget__inner">
-                                    <div class="posts-list flex-box flex-space-30 flex-box-1i posts-list-tablet-2i">
-                                        <div class="list-item">
-                                            <article class="post post--vertical post--vertical-rectangle-outside">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x150" alt="File not found"></a>
-                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
-                                                </div>
-                                                <div class="post__text">
-                                                    <h3 class="post__title f-20 m-b-10 f-w-600">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--vertical post--vertical-rectangle-outside">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x150" alt="File not found"></a>
-                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
-                                                </div>
-                                                <div class="post__text">
-                                                    <h3 class="post__title f-20 m-b-10 f-w-600">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
-                                        </div>
-                                        <div class="list-item">
-                                            <article class="post post--vertical post--vertical-rectangle-outside">
-                                                <div class="post__thumb object-fit">
-                                                    <a href="./single-1.html"><img src="http://via.placeholder.com/250x150" alt="File not found"></a>
-                                                    <a href="./category.html" class="post__cat post__cat--bg">GADGETS</a>
-                                                </div>
-                                                <div class="post__text">
-                                                    <h3 class="post__title f-20 m-b-10 f-w-600">
-                                                        <a href="./single-1.html">Oculus Working on Update to Improve Rift S Audio</a>
-                                                    </h3>
-                                                    <div class="post__meta time-style-1">
-                                                        <time class="time published" datetime="2019-03-06T08:45:23+00:00" title="March 6, 2019 at 8:45 am">March 6, 2019</time>
-                                                    </div>
-                                                </div>
-                                            </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="body-contact-overlay"></div>
+                <!-- header-contact-end -->
+            </div>
+        </header>
+        <!-- header-area-end -->
+
+
+
+        <!-- main-area -->
+        <main>
+
+            <!-- banner-area -->
+            <section class="banner-area banner-bg">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="banner-img wow fadeInLeft" data-wow-delay=".4s">
+                                <img src="assets/img/banner/banner_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="banner-content">
+                                <span class="sub-title wow fadeInUp" data-wow-delay=".2s">Amazing <strong>Starts</strong> Here</span>
+                                <h2 class="title wow fadeInUp" data-wow-delay=".4s">Grow Your Business Using Our Services</h2>
+                                <a href="contact.html" class="btn wow fadeInUp" data-wow-delay=".6s">Contact Us <span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner-shape-wrap">
+                    <img src="assets/img/banner/banner_shape01.png" alt="">
+                    <img src="assets/img/banner/banner_shape02.png" alt="" class="animationFramesOne">
+                    <img src="assets/img/banner/banner_shape03.png" alt="" class="contactSwimmer">
+                    <img src="assets/img/banner/banner_shape04.png" alt="" class="rotateme">
+                    <img src="assets/img/banner/banner_shape05.png" alt="" class="animation1">
+                    <img src="assets/img/banner/banner_shape06.png" alt="" class="ribbonRotate">
+                    <img src="assets/img/banner/banner_shape07.png" alt="" class="float-bob-x">
+                </div>
+            </section>
+            <!-- banner-area-end -->
+
+            <!-- services-area -->
+            <section class="services-area pt-35 pb-95">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                            <div class="services-item wow fadeInUp" data-wow-delay=".2s">
+                                <div class="services-icon">
+                                    <img src="assets/img/icon/services_icon01.png" alt="">
+                                </div>
+                                <div class="services-content">
+                                    <h4 class="title"><a href="services-details.html">UIUX Design</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                            <div class="services-item wow fadeInUp" data-wow-delay=".4s">
+                                <div class="services-icon">
+                                    <img src="assets/img/icon/services_icon02.png" alt="">
+                                </div>
+                                <div class="services-content">
+                                    <h4 class="title"><a href="services-details.html">Product Design</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                            <div class="services-item wow fadeInUp" data-wow-delay=".6s">
+                                <div class="services-icon">
+                                    <img src="assets/img/icon/services_icon03.png" alt="">
+                                </div>
+                                <div class="services-content">
+                                    <h4 class="title"><a href="services-details.html">Website Design</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                            <div class="services-item wow fadeInUp" data-wow-delay=".8s">
+                                <div class="services-icon">
+                                    <img src="assets/img/icon/services_icon04.png" alt="">
+                                </div>
+                                <div class="services-content">
+                                    <h4 class="title"><a href="services-details.html">Branding Design</a></h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- services-area-end -->
+
+            <!-- about-area -->
+            <section class="about-area">
+                <div class="container custom-container">
+                    <div class="about-inner">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-46 order-0 order-lg-2">
+                                <div class="about-img text-end">
+                                    <img src="assets/img/images/about_img.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-54">
+                                <div class="about-content">
+                                    <div class="section-title mb-25">
+                                        <span class="sub-title">About Company</span>
+                                        <h2 class="title">A Full Service Design and Branding Agency</h2>
+                                    </div>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                    <ul class="list-wrap">
+                                        <li>
+                                            <div class="icon">
+                                                <img src="assets/img/icon/about_icon01.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title">Concept Creation</h4>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="assets/img/icon/about_icon02.png" alt="">
+                                            </div>
+                                            <div class="content">
+                                                <h4 class="title">Sketch Drawing</h4>
+                                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="about-content-bottom">
+                                        <span>Think Creative Agency Are a Full Service Design</span>
+                                        <div class="read-more-btn">
+                                            <a href="about-us.html" class="btn">Read More <span></span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -1080,31 +348,350 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- -->
-            <div class="atbs-section-sidebar js-sticky-sidebar">
-                <div class="widget atbs-atbs-widget atbs-widget-author-box">
-                    <div class="widget-wrap">
-                        <div class="widget__inner">
-                            <div class="author-box author-box-vertical">
-                                <div class="author-box__image">
-                                    <div class="author-avatar">
-                                        <img alt="designUTD" src="http://via.placeholder.com/250x250" class="avatar avatar-150 photo avatar photo" height="150" width="150" loading="lazy">
+            </section>
+            <!-- about-area-end -->
+
+            <!-- team-area -->
+            <section class="team-area pt-130 pb-130">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="team-img-wrap">
+                                <img src="assets/img/team/team_img_shape.png" alt="" class="img-shape">
+                                <img src="assets/img/team/team_img01.png" alt="" class="img-one">
+                                <img src="assets/img/team/team_img02.png" alt="" class="img-two">
+                                <img src="assets/img/team/team_img03.png" alt="" class="img-three">
+                                <img src="assets/img/team/team_img04.png" alt="" class="img-four">
+                                <img src="assets/img/team/team_img05.png" alt="" class="img-five">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="team-content">
+                                <div class="section-title mb-25">
+                                    <span class="sub-title">Our Team</span>
+                                    <h2 class="title">An Essential Aspect of Creativity is Not Being Afraid to Fail</h2>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                <a href="team.html" class="btn">Meet Our Team <span></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-shape-wrap">
+                    <img src="assets/img/images/team_shape01.png" alt="" class="ribbonRotate">
+                    <img src="assets/img/images/team_shape02.png" alt="" class="float-bob-x">
+                </div>
+            </section>
+            <!-- team-area-end -->
+
+            <!-- project-area -->
+            <section class="project-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-4">
+                            <div class="project-content">
+                                <div class="section-title white-title mb-30">
+                                    <span class="sub-title">Our Complete Craft</span>
+                                    <h2 class="title">Some of Our Work in Craft Digital Agency</h2>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+                                <div class="content-bottom">
+                                    <a href="about-me.html" class="btn">View All Project <span></span></a>
+                                    <div class="project-nav">
+                                        <button class="swiper-button-prev"></button>
+                                        <button class="swiper-button-next"></button>
                                     </div>
                                 </div>
-                                <div class="author-box__text">
-                                    <div class="author-name meta-font">
-                                        <a class="entry-author__name" rel="author" title="designUTD" href="./author.html">designUTD</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="project-item-wrap">
+                                <div class="swiper-container project-active">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="project-item">
+                                                <a href="project-details.html"><img src="assets/img/project/project_img01.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="project-item">
+                                                <a href="project-details.html"><img src="assets/img/project/project_img02.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="project-item">
+                                                <a href="project-details.html"><img src="assets/img/project/project_img03.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="project-item">
+                                                <a href="project-details.html" class="popup-image"><img src="assets/img/project/project_img02.jpg" alt=""></a>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="author-bio">
-                                        Welcome to my blog where I share my lifestyle tips
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-shape-wrap">
+                    <img src="assets/img/project/project_shape01.png" alt="" class="shape-one ribbonRotate">
+                    <img src="assets/img/project/project_shape02.png" alt="" class="shape-two ribbonRotate">
+                </div>
+            </section>
+            <!-- project-area-end -->
+
+            <!-- testimonial-area -->
+            <section class="testimonial-area pt-110 pb-120">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6">
+                            <div class="section-title text-center mb-60">
+                                <span class="sub-title">Testimonials</span>
+                                <h2 class="title">Shat Our Customer Say About Us</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item-wrap">
+                        <div class="row testimonial-active">
+                            <div class="col-lg-3">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and “</p>
                                     </div>
-                                    <div class="author-info">
-                                        <ul class="list-unstyled list-horizontal list-space-sm">
-                                            <li><a href="mailto:#"><i class="mdicon mdicon-mail_outline"></i><span class="sr-only">e-mail</span></a></li>
-                                            <li><a href="https://leonas.bk-ninja.com/default" target="_blank"><i class="mdicon mdicon-public"></i><span class="sr-only">Website</span></a></li>
-                                            <li><a href="#" target="_blank"><i class="mdicon mdicon-twitter"></i><span class="sr-only">Twitter</span></a></li>
-                                            <li><a href="#" target="_blank"><i class="mdicon mdicon-facebook"></i><span class="sr-only">Facebook</span></a></li>
+                                    <div class="testimonial-info">
+                                        <div class="thumb">
+                                            <img src="assets/img/images/testimonial_avatar01.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Davis Levin</h4>
+                                            <p>CEO Kawasaki Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and “</p>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <div class="thumb">
+                                            <img src="assets/img/images/testimonial_avatar02.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Davis Levin</h4>
+                                            <p>CEO Kawasaki Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and “</p>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <div class="thumb">
+                                            <img src="assets/img/images/testimonial_avatar03.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Davis Levin</h4>
+                                            <p>CEO Kawasaki Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and “</p>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <div class="thumb">
+                                            <img src="assets/img/images/testimonial_avatar04.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Davis Levin</h4>
+                                            <p>CEO Kawasaki Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and “</p>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <div class="thumb">
+                                            <img src="assets/img/images/testimonial_avatar02.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Davis Levin</h4>
+                                            <p>CEO Kawasaki Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="testimonial-item">
+                                    <div class="testimonial-content">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and “</p>
+                                    </div>
+                                    <div class="testimonial-info">
+                                        <div class="thumb">
+                                            <img src="assets/img/images/testimonial_avatar03.png" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <h4 class="title">Davis Levin</h4>
+                                            <p>CEO Kawasaki Inc.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- testimonial-area-end -->
+
+            <!-- consultation-area -->
+            <section class="consultation-area pt-120 pb-120">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <div class="consultation-content">
+                                <div class="section-title mb-25">
+                                    <img src="assets/img/icon/consultation_icon01.png" alt="">
+                                    <span class="sub-title">95% Accuracy</span>
+                                    <h2 class="title">Worldwide Best Digital Marketing Agency</h2>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and</p>
+                                <div class="consultation-list">
+                                    <ul class="list-wrap">
+                                        <li>
+                                            <div class="icon">
+                                                <img src="assets/img/icon/consultation_icon02.png" alt="">
+                                                <span>12x</span>
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="title">Faster Order Processing</h6>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <img src="assets/img/icon/consultation_icon03.png" alt="">
+                                                <span>95%</span>
+                                            </div>
+                                            <div class="content">
+                                                <h6 class="title">Processing Accuracy</h6>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="consultation-form-wrap">
+                                <h4 class="title">Free Consultation</h4>
+                                <form action="#">
+                                    <div class="form-grp">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div class="form-grp">
+                                        <input type="email" placeholder="Email Address">
+                                    </div>
+                                    <div class="form-grp">
+                                        <input type="text" placeholder="Phone Number">
+                                    </div>
+                                    <div class="form-grp">
+                                        <select id="shortBy" name="select" class="form-select" aria-label="Default select example">
+                                            <option value="">Subject</option>
+                                            <option>Subject One</option>
+                                            <option>Subject Two</option>
+                                            <option>Subject Three</option>
+                                            <option>Subject Four</option>
+                                        </select>
+                                    </div>
+                                    <button class="btn" type="submit">Consultation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="consultation-shape-wrap">
+                    <img src="assets/img/images/consultation_shape01.png" alt="" class="shape-one ribbonRotate">
+                    <img src="assets/img/images/consultation_shape02.png" alt="" class="shape-two float-bob-x">
+                </div>
+            </section>
+            <!-- consultation-area-end -->
+
+            <!-- blog-area -->
+            <section class="blog-area">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center mb-50">
+                                <span class="sub-title">My Blog</span>
+                                <h2 class="title">News & Updates</h2>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img01.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <a href="blog.html" class="tag">Branding</a>
+                                    <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
+                                    <div class="blog-meta">
+                                        <ul class="list-wrap">
+                                            <li class="avatar-img">
+                                                <a href="blog.html"><img src="assets/img/blog/blog_avatar01.png" alt=""></a>
+                                            </li>
+                                            <li>By <a href="blog.html">Ataur</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img02.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <a href="blog.html" class="tag">Branding</a>
+                                    <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
+                                    <div class="blog-meta">
+                                        <ul class="list-wrap">
+                                            <li class="avatar-img">
+                                                <a href="blog.html"><img src="assets/img/blog/blog_avatar02.png" alt=""></a>
+                                            </li>
+                                            <li>By <a href="blog.html">Ataur</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-post-item">
+                                <div class="blog-post-thumb">
+                                    <a href="blog-details.html"><img src="assets/img/blog/blog_img03.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-post-content">
+                                    <a href="blog.html" class="tag">Branding</a>
+                                    <h2 class="title"><a href="blog-details.html">How To Create JavaScript Vanilla Gantt Chart: Adding</a></h2>
+                                    <div class="blog-meta">
+                                        <ul class="list-wrap">
+                                            <li class="avatar-img">
+                                                <a href="blog.html"><img src="assets/img/blog/blog_avatar03.png" alt=""></a>
+                                            </li>
+                                            <li>By <a href="blog.html">Ataur</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -1112,385 +699,149 @@
                         </div>
                     </div>
                 </div>
-                <div class="atbs-widget-social-counter widget atbs-atbs-widget">
-                    <div class="atbs-widget-social-counter__inner">
-                        <ul class="flex-box flex-box-2i flex-space-20 list-unstyled">
-                            <li>
-                                <a href="#" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-                                            <g id="facebook" transform="translate(0)">
-                                                <path id="Path_1508" data-name="Path 1508" d="M23.62,0H1.379A1.38,1.38,0,0,0,0,1.38V23.621A1.38,1.38,0,0,0,1.38,25H23.62A1.38,1.38,0,0,0,25,23.621h0V1.379A1.38,1.38,0,0,0,23.62,0Zm0,0" transform="translate(0 0)" fill="#7d7d7d"/>
-                                                <path id="Path_1509" data-name="Path 1509" d="M214.153,98.549V88.881h3.259L217.9,85.1h-3.748v-2.41c0-1.093.3-1.838,1.871-1.838h1.987V77.473a26.7,26.7,0,0,0-2.911-.149c-2.881,0-4.852,1.758-4.852,4.987V85.1H207v3.784h3.247v9.668Zm0,0" transform="translate(-196.893 -73.549)" fill="#131419"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">227k</span>
-                                        <h5 class="social-title__title meta-font">Followers</h5>
+            </section>
+            <!-- blog-area-end -->
 
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <svg id="youtube" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-                                            <rect id="Rectangle_1551" data-name="Rectangle 1551" width="25" height="25" rx="1" fill="#7d7d7d"/>
-                                            <g id="Group_19406" data-name="Group 19406" transform="translate(5.056 3.46)">
-                                                <path id="Path_1504" data-name="Path 1504" d="M101.545,213.838a.788.788,0,0,0-.063-.278.3.3,0,0,0-.269-.184.468.468,0,0,0-.367.138.244.244,0,0,0-.061.092l0,2.961v.073l.029.038a.588.588,0,0,0,.313.193.3.3,0,0,0,.4-.24.719.719,0,0,0,.016-.149C101.548,215.6,101.549,214.719,101.545,213.838Zm0,0a.788.788,0,0,0-.063-.278.3.3,0,0,0-.269-.184.468.468,0,0,0-.367.138.244.244,0,0,0-.061.092l0,2.961v.073l.029.038a.588.588,0,0,0,.313.193.3.3,0,0,0,.4-.24.719.719,0,0,0,.016-.149C101.548,215.6,101.549,214.719,101.545,213.838Zm3.315-4.465q-5.256-.113-10.513,0a2.236,2.236,0,0,0-2.188,2.236v5.473a2.236,2.236,0,0,0,2.188,2.237q5.256.113,10.513,0a2.236,2.236,0,0,0,2.188-2.237v-5.473A2.236,2.236,0,0,0,104.86,209.373Zm-9.484,8.207h-1.01v-5.712H93.319v-.956h3.1v.953H95.376Zm3.616-2.371v2.371H98.1v-.542l-.067.072a1.641,1.641,0,0,1-.69.494.837.837,0,0,1-.419.038.515.515,0,0,1-.405-.323,1.252,1.252,0,0,1-.093-.516c0-.653,0-4.108,0-4.141h.893c0,.03,0,2.51.005,3.72a.989.989,0,0,0,.014.2.218.218,0,0,0,.314.175.976.976,0,0,0,.432-.338.156.156,0,0,0,.017-.091v-3.669l.9,0Zm3.4,1.9a.734.734,0,0,1-.761.539,1.011,1.011,0,0,1-.763-.348l-.087-.092v.374h-.9v-6.668h.9v2.195a.9.9,0,0,1,.1-.153,1.029,1.029,0,0,1,.516-.328.777.777,0,0,1,.929.422,1.732,1.732,0,0,1,.143.749q0,1.4,0,2.8A1.635,1.635,0,0,1,102.4,217.107Zm3.311-.188a1.1,1.1,0,0,1-.947.776,1.5,1.5,0,0,1-.855-.087,1.187,1.187,0,0,1-.678-.863,2.6,2.6,0,0,1-.065-.557c-.007-.73,0-1.461,0-2.191a1.475,1.475,0,0,1,.353-1.026,1.3,1.3,0,0,1,1.116-.431,1.563,1.563,0,0,1,.389.071,1.085,1.085,0,0,1,.739.878,2.646,2.646,0,0,1,.049.5c.007.389,0,1.248,0,1.248h-1.716v1.23a.4.4,0,1,0,.8,0v-.632h.922A4.47,4.47,0,0,1,105.706,216.919Zm-.819-3.139a.4.4,0,1,0-.8,0v.691h.8Zm-3.4-.22a.3.3,0,0,0-.269-.184.468.468,0,0,0-.367.138.244.244,0,0,0-.061.092l0,2.961v.073l.029.038a.588.588,0,0,0,.313.193.3.3,0,0,0,.4-.24.719.719,0,0,0,.016-.149c0-.882,0-1.763,0-2.644A.788.788,0,0,0,101.482,213.56Z" transform="translate(-92.159 -201.294)" fill="#131419"/>
-                                                <path id="Path_1505" data-name="Path 1505" d="M259.322,94.99v4.951H258.4v-.532c-.1.1-.188.193-.283.277a1.239,1.239,0,0,1-.583.3.582.582,0,0,1-.745-.4,1.307,1.307,0,0,1-.059-.369V94.99h.91v3.775a.852.852,0,0,0,.013.15.207.207,0,0,0,.292.177.978.978,0,0,0,.44-.339.163.163,0,0,0,.014-.092V94.99Z" transform="translate(-247.707 -93.239)" fill="#131419"/>
-                                                <path id="Path_1506" data-name="Path 1506" d="M136.974,65.681c-.2-.839-.616-2.611-.616-2.611h-1.044s.8,2.66,1.161,3.846a.473.473,0,0,1,.019.134v2.72h.963V67.05a.473.473,0,0,1,.019-.134c.359-1.186,1.161-3.846,1.161-3.846h-1.044s-.417,1.772-.616,2.611Z" transform="translate(-132.947 -63.07)" fill="#131419"/>
-                                                <path id="Path_1507" data-name="Path 1507" d="M196.121,92.731h0a1.313,1.313,0,0,0-1.313,1.313v2.571a1.313,1.313,0,0,0,1.313,1.313h0a1.313,1.313,0,0,0,1.313-1.313V94.044A1.313,1.313,0,0,0,196.121,92.731Zm.379,3.936a.379.379,0,1,1-.758,0V93.993a.379.379,0,1,1,.758,0Z" transform="translate(-189.177 -91.104)" fill="#131419"/>
-                                            </g>
-                                        </svg>
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">227k</span>
-                                        <h5 class="social-title__title meta-font">Followers</h5>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-                                            <g id="Group_19409" data-name="Group 19409" transform="translate(-96 -723)">
-                                                <path id="linkedin" d="M23.2,0H1.8A1.8,1.8,0,0,0,0,1.8V23.2A1.8,1.8,0,0,0,1.8,25H23.2A1.8,1.8,0,0,0,25,23.2V1.8A1.8,1.8,0,0,0,23.2,0ZM8.868,18.9H5.823V9.738H8.868ZM7.346,8.487h-.02a1.587,1.587,0,1,1,.04-3.165,1.587,1.587,0,1,1-.02,3.165Zm12.5,10.41H16.8V14c0-1.231-.441-2.071-1.542-2.071A1.667,1.667,0,0,0,13.7,13.039a2.085,2.085,0,0,0-.1.743V18.9H10.553s.04-8.3,0-9.159H13.6v1.3A3.022,3.022,0,0,1,16.34,9.523c2,0,3.5,1.309,3.5,4.122Zm0,0" transform="translate(96 723)" fill="#7d7d7d"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">227k</span>
-                                        <h5 class="social-title__title meta-font">Followers</h5>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <svg id="instagram" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-                                            <path id="Path_1510" data-name="Path 1510" d="M104.916,91H93.2A2.2,2.2,0,0,0,91,93.2v11.719a2.2,2.2,0,0,0,2.2,2.2h11.719a2.2,2.2,0,0,0,2.2-2.2V93.2A2.2,2.2,0,0,0,104.916,91Zm-5.859,13.184a5.127,5.127,0,1,1,5.127-5.127A5.133,5.133,0,0,1,99.057,104.184Zm5.127-8.789a1.465,1.465,0,1,1,1.465-1.465A1.467,1.467,0,0,1,104.184,95.395Zm0,0" transform="translate(-86.557 -86.557)" fill="#7d7d7d"/>
-                                            <path id="Path_1511" data-name="Path 1511" d="M184.662,181a3.662,3.662,0,1,0,3.662,3.662A3.666,3.666,0,0,0,184.662,181Zm0,0" transform="translate(-172.162 -172.162)" fill="#7d7d7d"/>
-                                            <path id="Path_1512" data-name="Path 1512" d="M21.289,0H3.711A3.751,3.751,0,0,0,0,3.711V21.289A3.751,3.751,0,0,0,3.711,25H21.289A3.751,3.751,0,0,0,25,21.289V3.711A3.751,3.751,0,0,0,21.289,0Zm.732,18.359a3.666,3.666,0,0,1-3.662,3.662H6.641a3.666,3.666,0,0,1-3.662-3.662V6.641A3.666,3.666,0,0,1,6.641,2.979H18.359a3.666,3.666,0,0,1,3.662,3.662Zm0,0" fill="#7d7d7d"/>
-                                        </svg>
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">227k</span>
-                                        <h5 class="social-title__title meta-font">Followers</h5>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <svg id="google-plus-logo-on-black-background" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-                                            <g id="post-gplus">
-                                                <path id="Path_1513" data-name="Path 1513" d="M11.5,8.625c0-1.25-.75-3.75-2.625-3.75-.75,0-1.625.5-1.625,2.125,0,1.5.75,3.625,2.5,3.625A1.911,1.911,0,0,0,11.5,8.625Zm-.75,6.125h-.375a9.244,9.244,0,0,0-2.25.375A2.276,2.276,0,0,0,6.25,17.25C6.25,18.625,7.5,20,10,20a2.733,2.733,0,0,0,3-2.5C13,16.625,12.375,16,10.75,14.75ZM22.5,0H2.5A2.507,2.507,0,0,0,0,2.5v20A2.507,2.507,0,0,0,2.5,25h20A2.507,2.507,0,0,0,25,22.5V2.5A2.507,2.507,0,0,0,22.5,0ZM8.875,21.5c-3.5,0-5.125-2-5.125-3.75a3.294,3.294,0,0,1,1.875-3A8.357,8.357,0,0,1,9.5,13.625a1.659,1.659,0,0,1-.375-1.25,1.127,1.127,0,0,1,.125-.625h-.5A3.821,3.821,0,0,1,4.75,8c0-2.125,1.625-4.5,5.125-4.5h5.25l-.375.375-.875.875-.125.125h-.875A3.771,3.771,0,0,1,14,7.625,3.74,3.74,0,0,1,12,11a1.052,1.052,0,0,0-.5.875.844.844,0,0,0,.5.75,2.731,2.731,0,0,0,.625.375c1,.75,2.375,1.625,2.375,3.625C15,18.875,13.375,21.5,8.875,21.5Zm12.375-9h-2.5V15H17.5V12.5H15V11.25h2.5V8.75h1.25v2.5h2.5Z" fill="#7d7d7d"/>
-                                            </g>
-                                        </svg>
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">227k</span>
-                                        <h5 class="social-title__title meta-font">Followers</h5>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="social-title social-facebook">
-                                    <div class="social-title__icon">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
-                                            <path id="twitter" d="M23.2,0H1.8A1.8,1.8,0,0,0,0,1.8V23.2A1.8,1.8,0,0,0,1.8,25H23.2A1.8,1.8,0,0,0,25,23.2V1.8A1.8,1.8,0,0,0,23.2,0Zm-4.99,9.746q.008.185.008.371a8.108,8.108,0,0,1-8.163,8.163h0a8.121,8.121,0,0,1-4.4-1.289,5.835,5.835,0,0,0,.684.04A5.757,5.757,0,0,0,9.9,15.8a2.872,2.872,0,0,1-2.68-1.993,2.86,2.86,0,0,0,1.3-.049,2.87,2.87,0,0,1-2.3-2.812c0-.013,0-.025,0-.037a2.849,2.849,0,0,0,1.3.359,2.872,2.872,0,0,1-.888-3.83,8.146,8.146,0,0,0,5.914,3,2.871,2.871,0,0,1,4.889-2.617,5.755,5.755,0,0,0,1.822-.7,2.88,2.88,0,0,1-1.262,1.587,5.722,5.722,0,0,0,1.648-.452,5.831,5.831,0,0,1-1.431,1.486Zm0,0" transform="translate(0)" fill="#7d7d7d"/>
-                                        </svg>
-
-
-                                    </div>
-                                    <div class="social-title__inner">
-                                        <span class="social-title__count">227k</span>
-                                        <h5 class="social-title__title meta-font">Followers</h5>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- .site-content -->
-    <footer class="site-footer footer-1">
-        <div class="site-footer__section">
-            <div class="site-footer__section-inner inverse-text">
-                <div class="section-row">
-                    <div class="section-column section-column-left text-left">
-                        <div class="site-logo">
-                            <a href="./index.html">
-                                <img src="./img/logo.png" alt="logo" width="108">
-                            </a>
-                        </div>
-                    </div>
-                    <div class="section-column section-column-center text-center">
-                        <nav class="footer-menu text-center">
-                            <ul id="menu-footer-menu" class="navigation navigation--footer navigation--inline">
-                                <li class="current-menu-item"><a href="index.html">Homepage</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                                <li><a href="404.html">404 Page</a></li>
-                                <li><a href="search.html">Search Page</a></li>
-                                <li><a href="single-1.html">Single Layout</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="section-column section-column-right text-right section-socials">
-                        <ul class="social-list social-list--md list-horizontal">
-                            <li><a href="#" target="_blank"><i class="mdicon mdicon-facebook"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="mdicon mdicon-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="mdicon mdicon-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Sticky header -->
-    <div id="atbs-sticky-header" class="sticky-header js-sticky-header">
-        <!-- Navigation bar -->
-        <nav class="navigation-bar navigation-bar--fullwidth hidden-xs hidden-sm">
-            <div class="navigation-bar__inner">
-                <div class="navigation-bar__section">
-                    <a href="#atbs-offcanvas-primary"
-                       class="offcanvas-menu-toggle navigation-bar-btn js-atbs-offcanvas-toggle">
-                        <i class="mdicon mdicon-menu icon--2x"></i>
-                    </a>
-                    <div class="site-logo header-logo">
-                        <a href="index.html">
-                            <img src="img/logo.png" alt="logo">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="navigation-wrapper navigation-bar__section js-priority-nav">
-                    <ul id="menu-main-menu-1" class="navigation navigation--main navigation--inline">
-                        <li class="menu-item-has-children">
-                            <a href="#">Homepage</a>
-                            <ul class="sub-menu">
-                                <li><a href="index.html">Home 1</a></li>
-                                <li><a href="home-2.html">Home 2</a></li>
-                                <li><a href="home-3.html">Home 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="./single-1.html">Single</a>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Archive</a>
-                            <ul class="sub-menu">
-                                <li><a href="category.html">Category</a></li>
-                                <li><a href="tags.html">Tags</a></li>
-                                <li><a href="author.html">Author</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item-has-children">
-                            <a href="#">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="search.html">Search</a></li>
-                                <li><a href="typography.html">Typography</a></li>
-                                <li><a href="404.html">404</a></li>
-                            </ul>
-                        </li>
-                        <li class="menu-item">
-                            <a href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="navigation-bar__section">
-                    <a href="#login-modal" class="navigation-bar__login-btn navigation-bar-btn" data-toggle="modal"
-                       data-target="#login-modal"><i class="mdicon mdicon-person"></i></a>
-                    <button type="submit" class="navigation-bar-btn js-search-dropdown-toggle"><i
-                            class="mdicon mdicon-search"></i></button>
-                </div>
-            </div> <!-- .navigation-bar__inner -->
-        </nav><!-- Navigation-bar -->
-    </div><!-- Sticky header -->
-    <!-- Login modal -->
-    <div class="modal fade login-modal" id="login-modal" tabindex="-1" role="dialog"
-         aria-labelledby="login-modal-label">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content login-signup-form">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&#10005;</span></button>
-                    <div class="modal-title" id="login-modal-label">
-                        <ul class="nav nav-tabs js-login-form-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#login-tab" aria-controls="login-tab"
-                                                                      role="tab" data-toggle="tab">Log in</a></li>
-                            <li role="presentation"><a href="#signup-tab" aria-controls="signup-tab" role="tab"
-                                                       data-toggle="tab">Sign up</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="modal-body">
-                    <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade in active" id="login-tab">
-                            <div class="login-with-social">
-                                <p>Log in with social account</p>
-                                <ul class="social-list social-list--circle list-center ">
-                                    <li><a href="#" class="facebook-theme-bg text-white"><i
-                                            class="mdicon mdicon-facebook"></i></a>
-                                    </li>
-                                    <li><a href="#" class="twitter-theme-bg text-white"><i
-                                            class="mdicon mdicon-twitter"></i></a>
-                                    </li>
-                                    <li><a href="#" class="googleplus-theme-bg text-white"><i
-                                            class="mdicon mdicon-google-plus"></i></a>
-                                    </li>
-                                </ul>
+            <!-- newsletter-area -->
+            <section class="newsletter-area pt-110 pb-120">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="section-title text-center mb-80">
+                                <span class="sub-title">Get update</span>
+                                <h2 class="title">Get latest updates <br> and dealsi</h2>
                             </div>
-                            <div class="block-divider"><span>or</span></div>
-                            <form name="loginform" id="loginform" action="#" method="post">
-                                <p class="login-username">
-                                    <label for="user_login">Username</label>
-                                    <input type="text" name="log" id="user_login" class="input" value="" size="20">
-                                </p>
-                                <p class="login-password">
-                                    <label for="user_pass">Password</label>
-                                    <input type="password" name="pwd" id="user_pass" class="input" value="" size="20">
-                                </p>
-                                <p class="login-remember"><label><input name="rememberme" type="checkbox"
-                                                                        id="rememberme" value="forever"> Remember
-                                    Me</label></p>
-                                <p class="login-submit">
-                                    <input type="submit" name="wp-submit" id="wp-submit"
-                                           class="btn btn-block btn-primary" value="Log In">
-                                    <input type="hidden" name="redirect_to" value="#">
-                                </p>
-                                <p class="login-lost-password">
-                                    <a href="#" class="link link--darken">Lost your password?</a>
-                                </p>
-                            </form>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="signup-tab">
-                            <form name="registerform" id="registerform" action="#" method="post">
-                                <p class="register-username">
-                                    <label for="user_register">Username</label>
-                                    <input type="text" name="log" id="user_register" class="input" value="" size="20">
-                                </p>
-                                <p class="register-password">
-                                    <label for="user_register_pass">Password</label>
-                                    <input type="password" name="pwd" id="user_register_pass" class="input" value=""
-                                           size="20">
-                                </p>
-                                <p class="register-submit">
-                                    <input type="submit" name="wp-submit" id="wp-submit-register"
-                                           class="btn btn-block btn-primary" value="Sign Up">
-                                    <input type="hidden" name="redirect_to" value="#">
-                                </p>
-                            </form>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="newsletter-form">
+                                <form action="#">
+                                    <input type="email" placeholder="Enter your email address">
+                                    <button type="submit" class="btn">Subscribe <span></span></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter-shape-wrap">
+                    <img src="assets/img/images/newsletter_bg_shape.png" alt="" class="bg-shape">
+                    <img src="assets/img/images/newsletter_shape01.png" alt="" class="shape-one">
+                    <img src="assets/img/images/newsletter_shape02.png" alt="" class="shape-two">
+                    <img src="assets/img/images/newsletter_shape03.png" alt="" class="shape-three">
+                    <img src="assets/img/images/newsletter_shape04.png" alt="" class="shape-four">
+                    <img src="assets/img/images/newsletter_shape05.png" alt="" class="shape-five">
+                    <img src="assets/img/images/newsletter_shape06.png" alt="" class="shape-six">
+                </div>
+            </section>
+            <!-- newsletter-area-end -->
+
+        </main>
+        <!-- main-area-end -->
+
+        <!-- footer-area -->
+        <footer>
+            <div class="footer-area">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="footer-widget">
+                                    <div class="logo">
+                                        <a href="index.html"><img src="assets/img/logo/w_logo.png" alt=""></a>
+                                    </div>
+                                    <div class="footer-social">
+                                        <ul class="list-wrap">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li class="active"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-contact">
+                                        <span>For Support</span>
+                                        <h2 class="title"><a href="tel:0123456789">0123 - 567 - 7650</a></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="footer-widget">
+                                    <h4 class="fw-title">Primary Pages</h4>
+                                    <div class="fw-link">
+                                        <ul class="list-wrap">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="about-us.html">About</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="services-details.html">Service</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="footer-widget">
+                                    <h4 class="fw-title">Pages</h4>
+                                    <div class="fw-link">
+                                        <ul class="list-wrap">
+                                            <li><a href="about-us.html">About</a></li>
+                                            <li><a href="contact.html">Pricing</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="contact.html">Request for Demo</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6">
+                                <div class="footer-widget">
+                                    <h4 class="fw-title">About Store</h4>
+                                    <div class="footer-about">
+                                        <ul class="list-wrap">
+                                            <li><img src="assets/img/icon/phone_icon.svg" alt=""><a href="tel:0123456789">8 (495) 989—20—11</a></li>
+                                            <li><img src="assets/img/icon/mail_icon.svg" alt=""><a href="mailto:company@gmail.com">company@gmail.com</a></li>
+                                            <li><img src="assets/img/icon/loction_icon.svg" alt=""><span>Ranelagh Place, Liverpool, L3 5UL, England</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-md-6">
+                                <div class="cart-img">
+                                    <img src="assets/img/images/cart_img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="copyright-text text-end">
+                                    <p>© 2023 xilio. All Rights Reserved</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div><!-- Login modal -->
-    <!-- Subscribe modal -->
-    <div class="modal fade subscribe-modal" id="subscribe-modal" tabindex="-1" role="dialog"
-         aria-labelledby="subscribe-modal-label">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                            aria-hidden="true">&#10005;</span></button>
-                    <h4 class="modal-title" id="subscribe-modal-label">Subscribe</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="subscribe-form subscribe-form--horizontal text-center max-width-sm">
-                        <p class="typescale-1">
-                            Join our <b>868,537</b> subscribers and get access to the latest tools, freebies, product
-                            announcements and much more!
-                        </p>
-                        <div class="subscribe-form__fields">
-                            <p>
-                                <input type="email" name="EMAIL" placeholder="Your email address" required="">
-                                <input type="submit" value="Subscribe" class="btn btn-primary">
-                            </p>
-                        </div>
-                        <small>Don't worry, we don't spam</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><!-- Subscribe modal -->
-    <!-- Off-canvas menu -->
-    <div id="atbs-offcanvas-primary" class="atbs-offcanvas js-atbs-offcanvas js-perfect-scrollbar">
-        <div class="atbs-offcanvas__title">
-            <h2 class="site-logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></h2>
-            <ul class="social-list list-horizontal">
-                <li><a href="#"><i class="mdicon mdicon-facebook"></i></a>
-                </li>
-                <li><a href="#"><i class="mdicon mdicon-twitter"></i></a>
-                </li>
-                <li><a href="#"><i class="mdicon mdicon-youtube"></i></a>
-                </li>
-                <li><a href="#"><i class="mdicon mdicon-google-plus"></i></a>
-                </li>
-            </ul>
-            <a href="#atbs-offcanvas-primary" class="atbs-offcanvas-close js-atbs-offcanvas-close"
-               aria-label="Close"><span aria-hidden="true">&#10005;</span></a>
-        </div>
+        </footer>
+        <!-- footer-area-end -->
 
-        <div class="atbs-offcanvas__section atbs-offcanvas__section-navigation">
-            <ul id="menu-offcanvas-menu" class="navigation navigation--offcanvas">
-                <li class="menu-item-has-children">
-                    <a href="#">Home Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="index.html">Home 1</a></li>
-                        <li><a href="home-2.html">Home 2</a></li>
-                        <li><a href="home-3.html">Home 3</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="./single-1.html">Single</a>
-                </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Archive</a>
-                    <ul class="sub-menu">
-                        <li><a href="category.html">Category</a></li>
-                        <li><a href="tags.html">Tags</a></li>
-                        <li><a href="author.html">Author</a></li>
-                    </ul>
-                </li>
 
-                <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
-                    <ul class="sub-menu">
-                        <li><a href="search.html">Search</a></li>
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="404.html">404</a></li>
-                    </ul>
-                </li>
-                <li class="menu-item">
-                    <a href="contact.html">Contact</a>
-                </li>
 
-            </ul>
-        </div>
-
-        <div class="atbs-offcanvas__section visible-xs visible-sm">
-            <div class="text-center">
-                <a href="#login-modal" class="btn btn-default btn-form-author" data-toggle="modal" data-target="#login-modal"><i
-                        class="mdicon mdicon-person mdicon--first"></i><span>Login / Sign up</span></a>
-            </div>
-        </div>
-    </div><!-- Off-canvas menu -->
-    <a href="#" class="atbs-go-top btn btn-default hidden-xs js-go-top-el"><i class="mdicon mdicon-arrow_upward"></i></a>
-</div><!-- .site-wrapper -->
-
-<script src="js/jquery.js"></script>
-<script src="js/sidebar.js"></script>
-<script src="js/owl-carousel.min.js"></script>
-<script src="js/scripts.js"></script>
-</body>
+        <!-- JS here -->
+        <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/isotope.pkgd.min.js"></script>
+        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/jquery.odometer.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/jquery.appear.js"></script>
+        <script src="assets/js/slick.min.js"></script>
+        <script src="assets/js/ajax-form.js"></script>
+        <script src="assets/js/parallax.min.js"></script>
+        <script src="assets/js/jquery.parallaxScroll.min.js"></script>
+        <script src="assets/js/tween-max.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
